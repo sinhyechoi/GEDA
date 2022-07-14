@@ -9,7 +9,8 @@ new fullpage('#fullpage', {
 	navigationPosition: 'right',
     navigationTooltips: ['GAH소개','제다큐어','연구개발','본사위치','연구소위치'], 
     easing: 'easeInOutCubic',
-    anchors: ['s1', 's2', 's3', 's4', 's5'],
+    anchors: ['1st', 'second', '3rd', '4th', '5th'],
     menu: '.gnb_list',
+    normalScrollElements: '#s2',
 });
 
